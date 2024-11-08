@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -8,37 +8,46 @@
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/responsivo.css">
+  <script src="js/efeitoBotao.js" defer></script>
+
 </head>
 <body>
-  Join our community
+  <main class="pricing-container">
+    <section class="intro-section">
+      <h1 class="intro-title">Join our community</h1>
+      <p class="intro-description">30-day, hassle-free money back guarantee</p>
+      <p class="intro-details">
+        Gain access to our full library of tutorials along with expert code reviews.
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </section>
 
-  30-day, hassle-free money back guarantee
+    <section class="subscription-section">
+      <div class="subscription-card">
+        <h2 class="subscription-title">Monthly Subscription</h2>
+        <p class="subscription-price">&dollar;29 <span>per month</span></p>
+        <p class="subscription-details">Full access for less than &dollar;1 a day</p>
+        <button class="subscription-button"><span>Sign Up</span></button>
+        <!-- <a href="#" class="subscription-button"><span>Sign Up</span></a> -->
+      </div>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+      <div class="benefits-card">
+        <h2 class="benefits-title">Why Us</h2>
+        <p class="benefits-details">
+          Tutorials by industry experts
+          Peer &amp; expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week
+        </p>
+      </div>
+    </section>
+  </main>
   
   <footer>
     <p class="attribution">

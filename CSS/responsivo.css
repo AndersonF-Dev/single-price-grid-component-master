@@ -1,0 +1,49 @@
+@media (max-width: 700px) {
+
+    .pricing-container {
+        width: 300px;
+        margin-bottom: 9%;
+        border-radius: 5px;
+    }
+
+    .intro-section {
+        width: 300px;
+        
+    }
+
+    .intro-details {
+        width: 260px;
+        
+    }
+    .subscription-card {
+        width: 300px;
+        border-bottom-left-radius: 0;
+    }
+
+    .subscription-section {
+        display: block;
+    }
+
+    .subscription-title {
+        margin-top: 0;
+        padding-top: 10%;
+        
+    }
+
+    .benefits-card {
+        width: 300px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .benefits-title {
+        margin-top: 0;
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 390px) {
+    .pricing-container {
+        margin-top: 50%;
+        margin-bottom: 4%;
+    }
+}
