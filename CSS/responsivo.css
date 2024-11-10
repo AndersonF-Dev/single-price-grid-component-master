@@ -2,6 +2,7 @@
 
     .pricing-container {
         width: 300px;
+        margin-top: 40%;
         margin-bottom: 9%;
         border-radius: 5px;
     }
@@ -16,6 +17,7 @@
         
     }
     .subscription-card {
+       
         width: 300px;
         border-bottom-left-radius: 0;
     }
@@ -42,8 +44,14 @@
 }
 
 @media (max-width: 390px) {
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .pricing-container {
-        margin-top: 50%;
+        margin-top: 70%;
         margin-bottom: 4%;
     }
 }
